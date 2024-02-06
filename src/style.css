@@ -1,4 +1,34 @@
-.todo-container {
-    background-color: black;
-    color: white;
+body {
+    display: grid;
+    grid-template-columns:1fr 3fr;
+    height: 100vh;
 }
+
+nav {
+    background-color: rgb(70, 148, 167);
+    text-align: center;
+}
+
+.content {
+    background-color: rgb(249, 249, 255);
+}
+.todo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px;
+}
+.babem {
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: start;
+    font-size: 1.1em;
+    line-height: 3;
+    
+    
+}
+
+.babem:nth-child(even){
+   background-color: lightgray;
+}
+
+
